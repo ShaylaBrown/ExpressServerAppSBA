@@ -1,0 +1,15 @@
+{
+  "name": "expressserverappsba",
+  "version": "1.0.0",
+  "description": "SBA project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DExpress and Node SBA project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Express Server App SBA"
+  },
+  "author": "Shayla Brown",
+  "license": "ISC"
+}
