@@ -46,5 +46,8 @@ app.get("/", (req, res) => {
   })
   .patch((req, res) => {
     res.send("Update the user's information.");
+  })
+  .delete((req, res) => {
+    res.send("Deleted.")
   });
   
