@@ -133,12 +133,12 @@ app
   });
 
 app.get("/", (req, res) => {
-  res.send("Work in progress!");
+  res.send("Loading!");
 });
 
 app.use((req, res) => {
   res.status(404);
-  res.json({ error: "Resource Not Found" });
+  res.json({ error: "Page Not Found" });
 });
 
 app.listen(port, () => {
