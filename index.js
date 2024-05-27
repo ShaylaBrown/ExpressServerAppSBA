@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.use(express.static("./styles"));
+app.use(express.static("./index.css"));
 
 const fs = require("fs");
 app.engine("perscholas", (filePath, options, callback) => {
