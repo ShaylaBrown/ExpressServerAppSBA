@@ -33,7 +33,7 @@ app
   .post((req, res) => {
     if (req.body.name && req.body.username && req.body.email) {
       if (users.find((u) => u.username == req.body.username)) {
-        res.json({ error: "Username Already Taken" });
+        res.json({ error: "Username Unavailable" });
         return;
       }
 
