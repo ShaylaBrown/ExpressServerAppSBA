@@ -10,8 +10,7 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ extended: true }));
 
-// New logging middleware to help us keep track of
-// requests during testing!
+
 app.use((req, res, next) => {
   const time = new Date();
 
